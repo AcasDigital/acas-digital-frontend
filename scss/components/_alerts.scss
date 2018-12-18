@@ -7,7 +7,7 @@
 
 .alert {
   @extend .col-xs-12;
-  @extend .col--centered;
+  @extend .col-centered;
 
   @extend %margin-vertical-4x;
 

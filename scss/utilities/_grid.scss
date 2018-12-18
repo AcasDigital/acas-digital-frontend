@@ -84,8 +84,8 @@
   @include make-grid(lg);
 }
 
-.col--centered {
+.col-centered {
   float: none !important;
   @extend %margin-0x;
-  margin: 0 auto;
+  margin: 0 auto !important;
 }

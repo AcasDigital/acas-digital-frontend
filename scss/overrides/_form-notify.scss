@@ -5,7 +5,7 @@
     @extend .col-xs-12;
     @extend .col-md-8;
     @extend .col-lg-7;
-    @extend .col--centered;
+    @extend .col-centered;
     @extend %margin-vertical-4x;
   }
 }
@@ -14,7 +14,7 @@
   @extend .col-xs-12;
   @extend .col-md-8;
   @extend .col-lg-7;
-  @extend .col--centered;
+  @extend .col-centered;
 }
 
 
@@ -24,7 +24,7 @@
   @extend .col-md-8;
   @extend .col-lg-7;
   @extend .guidance-text--light;
-  @extend .col--centered;
+  @extend .col-centered;
 }
 
 .prescribed {
