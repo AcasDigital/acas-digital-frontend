@@ -1,0 +1,22 @@
+{
+  "name": "@acas-digital-innovation/acas-frontend",
+  "version": "1.0.0",
+  "description": "Acas front-end codebase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://acasdigital@github.com/acasdigital/acasdigital-frontend.git"
+  },
+  "author": "“Acas Digi Innovation Team <“digitalinnovation@acas.org.uk”> (“https://beta.acas.org.uk”)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/acasdigital/acasdigital-frontend/issues"
+  },
+  "homepage": "https://github.com/acasdigital/acasdigital-frontend#readme",
+  "dependencies": {
+    "npm": "^6.5.0"
+  }
+}

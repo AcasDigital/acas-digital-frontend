@@ -1,0 +1,12 @@
+.invalid-feedback {
+  @extend %font-semibold;
+  @extend %margin-vertical-2x;
+
+  border-left: 4px solid acas-color("red");
+  color: acas-color("red");
+
+  padding-left: 16px;
+  line-height: 25px;
+  padding: 10px;
+  font-weight: 500;
+}

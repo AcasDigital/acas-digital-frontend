@@ -1,0 +1,27 @@
+ .block-in-this-section-block {
+  @extend %margin-bottom-10x;
+
+  clear: left;
+
+  .section__wrapper {
+    ul {
+      @extend .text-small;
+      @extend %list-no-format;
+      li {
+        @extend %padding-top-1x;
+      }
+    }
+  }
+
+  h2 {
+    @extend %margin-bottom-3x;
+    border-left: none;
+    color: acas-color("gray-dark");
+    font-family: $font-family-base;
+    font-size: 1em;
+    padding-left: 0;
+    &:before {
+      display: none;
+    }
+  }
+}
