@@ -9,7 +9,9 @@
   display: block;
   width: 75%;
   
-  color: acas-color("black");
+  &, &:focus {
+    color: acas-color("black");
+  }
   
   .details-wrapper {
     @extend %padding-vertical-3x;

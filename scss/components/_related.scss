@@ -9,8 +9,8 @@
       @extend %list-no-format;
       a {
         @extend %margin-bottom-2x;
+        @extend %links-black;
         
-        color: acas-color("gray-dark");
         display: inline-block;
       }
     }

@@ -5,7 +5,11 @@
 }
 
 .footer-logo {
-  max-width: 10rem;
+  @extend %link-no-focus;
+  
+  img {
+    max-width: 10rem;
+  }
 }
 
 #footer__inner {
