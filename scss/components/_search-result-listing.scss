@@ -46,6 +46,9 @@
   a {
     @extend %links-black;
   }
+  ul {
+    @extend %margin-bottom-0x;
+  }
 }
 
 /* No results */
@@ -59,9 +62,10 @@
 /* Search Breadcrumbs */
 ul.breadcrumb--search {
   @extend .breadcrumb;
-  margin-left: 0;
-  margin-bottom: 0;
-  padding-top: .6em;
+  @extend %margin-top-6x;
+
+  @extend %margin-horizontal-0x;
+
   li {
     display: inline-block;
     padding: 0;

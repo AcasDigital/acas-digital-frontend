@@ -19,6 +19,12 @@
   padding: 1.25em 4em 1.25em 1.25em;
   position: relative;
   text-align: left;
+
+  &, a {
+    color: acas-color("white");
+  }
+
+
   a {
     &:hover, &:focus {
       text-decoration: none;
@@ -30,9 +36,7 @@
       text-decoration: none;
     }
   }
-  &, a {
-    color: acas-color("white");
-  }
+
   p {
     @extend %margin-bottom-0x;
   }
@@ -50,13 +54,6 @@
     width: 3em;
   }
   
-}
-
-section#block-currentwebsiteblock {
-  @include clearfix;
-  @extend .col-xs-12;
-  @extend .col-sm-7;
-  @extend .col-md-6;
 }
 
 .inset-text--beta {

@@ -1,15 +1,3 @@
-main.main__content {
-  @extend %margin-vertical-8x;
-  display: block;
-}
-
-.page-node-type-home-page {
-  .page-header {
-    @extend .col-xs-12, .col-md-7;
-    @include clearfix;
-  }
-}
-
 header {
   &.block-page-title-block {
     @extend .col-xs-12;
@@ -26,10 +14,12 @@ article {
   &.details-page, 
   &.support-page,
   &.thank-you-page {
-    @extend .col-xs-12;
-    @extend .col-sm-9;
-    @extend .col-md-8;
-    @extend .col-lg-7;
+    &.full{
+      @extend .col-xs-12;
+      @extend .col-sm-9;
+      @extend .col-md-8;
+      @extend .col-lg-7;
+    }
     &.search-index {
       @extend .col-md-9;
     }
@@ -43,11 +33,16 @@ article {
       }
     }
   }
+  &.teaser {
+    @extend .col-xs-12;
+    @extend .col-sm-6;
+    @extend .col-md-4; 
+  }
 }
 
-#block-landingpagesblock, #block-landingpagebottomblock {
+#block-landingpagesblock, 
+#block-landingpagebottomblock {
   @extend %margin-bottom-8x;
-
   clear: left;
 }
 
@@ -56,16 +51,20 @@ article {
   @extend .col-md-7;
 }
 
-#block-homepageblock, #block-block-landingpagesblock {
+#block-homepageblock, 
+#block-block-landingpagesblock {
   @extend %margin-bottom-10x;
   clear: left;
   overflow: auto;
-  article {
-    @extend .col-xs-12;
-    @extend .col-sm-6;
-    @extend .col-md-4;
-  }
 }
+
+#block-currentwebsiteblock {
+  @include clearfix;
+  @extend .col-xs-12;
+  @extend .col-sm-7;
+  @extend .col-md-6;
+}
+
 
 .content-moderation-entity-moderation-form {
   width: 115%;

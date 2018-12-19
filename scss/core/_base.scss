@@ -50,3 +50,8 @@ ul, ol {
     @extend %padding-0x;
   }
 }
+
+main.main__content {
+  @extend %margin-vertical-8x;
+  display: block;
+}

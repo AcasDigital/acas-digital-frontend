@@ -1,8 +1,6 @@
  article.teaser {
-  @extend .col-xs-12;
-  @extend .col-sm-6;
-  @extend .col-md-4;
-  @extend %margin-bottom-4x;
+
+  @extend %margin-bottom-6x;
 
   .article__wrapper {
     @extend %padding-vertical-4x;

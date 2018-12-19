@@ -40,11 +40,13 @@ a {
 /* External Links */
 a {
   &.link-external {
+    @extend %padding-right-3x;
+
     background-image: url(../images/icons/icon-external-link.svg);
     background-repeat: no-repeat;
     background-position: center right;
     background-size: 12px auto;
-    padding-right: 15px;
+
     &:focus {
       background-image: url(../images/icons/icon-external-link-white.svg);
     }
@@ -52,6 +54,8 @@ a {
 
   &.share {
     &.link-external {
+      @extend %padding-right-0x;
+
       background-image: none;
     }
   }

@@ -1,5 +1,6 @@
 .secondary-page-navigation {
-  @extend %margin-vertical-6x;
+  @extend %margin-bottom-6x;
+  @extend %margin-top-8x;
   overflow: auto;
 }
 
@@ -8,10 +9,8 @@
   display: block;
   width: 75%;
   
-  .text, .title {
-    color: acas-color("black");
-  }
-
+  color: acas-color("black");
+  
   .details-wrapper {
     @extend %padding-vertical-3x;
     @extend %padding-horizontal-2x;

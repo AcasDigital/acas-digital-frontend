@@ -6,11 +6,8 @@
 
 @else {
   #social-share {
-  
     @extend %margin-vertical-4x;
-
     @extend %padding-horizontal-2x;
-
     @extend %padding-vertical-1x;
 
     background: acas-color("gray-light");
@@ -26,11 +23,12 @@
     
     .text {
       @extend .text-small;
+      @extend %padding-left-1x;
+      
       display: inline-block;
     }
 
     .social-media-sharing {
-      display: inline-block;
       float: right;
     }
 
