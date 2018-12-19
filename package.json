@@ -15,8 +15,5 @@
   "bugs": {
     "url": "https://github.com/acasdigital/acasdigital-frontend/issues"
   },
-  "homepage": "https://github.com/acasdigital/acasdigital-frontend#readme",
-  "dependencies": {
-    "npm": "^6.5.0"
-  }
+  "homepage": "https://github.com/acasdigital/acasdigital-frontend#readme"
 }
