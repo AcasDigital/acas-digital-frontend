@@ -1,0 +1,19 @@
+article.teaser.alternative {
+  h2 {
+    font-size: 1em;
+  }
+  .article-wrapper {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  article.teaser.alternative {
+    .article__wrapper {
+      min-height: 12em;
+    }
+  }
+}
