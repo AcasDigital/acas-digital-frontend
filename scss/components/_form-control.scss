@@ -28,6 +28,11 @@ select {
   height: 2.5em;
 }
 
+/* Ajax Loader */
+.ajax-progress.ajax-progress-throbber {
+  @extend %padding-bottom-6x;
+}
+
 /* Postal Code */
 .form-item-claimant-address-postal-code,
 .form-item-respondant-address-postal-code {
@@ -50,12 +55,18 @@ select {
 /* Address finder */
 .find-address-wrapper {
   input, a {
+    @extend %margin-right-3x;
     display: inline-block;
     max-width: 12em;
   }
   a {
     padding: .275em 1em;
-    @extend %margin-left-3x;
+  }
+}
+#address_results {
+  @extend %margin-bottom-6x;
+  select {
+    max-width: 100%;
   }
 }
 
