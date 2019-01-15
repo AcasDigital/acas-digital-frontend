@@ -5,7 +5,7 @@
 @import 'buttons';
 @import 'callout';
 @import 'cookie-compliance';
-@import 'footer';
+@import 'example-block';
 
 @import 'alerts';
 @import 'form-control';
@@ -23,13 +23,15 @@
 
 @import "error-messages";
 @import "error-summary";
-
 @import 'warning-message';
+
+@import 'footer';
 @import 'feedback';
 
 @import 'guide-navigation';
 @import 'header';
 @import 'landing-page';
+@import 'landing-page-alternative';
 @import 'navigation';
 @import 'pagination';
 @import 'print-download';

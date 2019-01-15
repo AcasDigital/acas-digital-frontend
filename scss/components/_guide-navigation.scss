@@ -9,16 +9,22 @@
       @extend %list-no-format;
       li {
         @extend %padding-top-1x;
+        padding-left: 25px;
+        &:before {
+          content: "— ";
+          margin-left: -25px;
+          padding-right: 5px;
+        }
       }
     }
   }
 
   h2 {
     @extend %margin-bottom-3x;
+    @extend .text-small;
     border-left: none;
     color: acas-color("gray-dark");
     font-family: $font-family-base;
-    font-size: 1em;
     padding-left: 0;
     &:before {
       display: none;
