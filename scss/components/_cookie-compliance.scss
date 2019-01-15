@@ -14,16 +14,6 @@
     max-width: 100%;
     p {
       @extend %margin-bottom-0x;
-    }
-    .title {
-      @extend %margin-right-10x;
-
-      display: inline-block;
-      font-family: $font-family-headers;
-
-      vertical-align: middle;
-    }
-    .text {
       @extend .text-small;
       display: inline-block;
       font-family: $font-family-base;
@@ -33,10 +23,12 @@
   .eu-cookie-compliance-buttons {
     @extend .col-xs-12;
     @extend .col-sm-4;
-    @extend %margin-top-7x;
+    @extend %margin-top-1x;
 
     button {
       @extend .text-small;
+      @extend %padding-2x;
+      
       cursor: pointer;
 
       background: acas-color("white");
@@ -47,34 +39,13 @@
       font-family: $font-family-headers;
 
       min-width: 8em;
-      padding: .5em;
-      padding-right: 2em;
 
       position: relative;
 
+      text-align: center;
+
       &:first-child {
         @extend %margin-right-2x;
-      }
-
-      &:after {
-        @include acas-shape-arrow($direction: right, $base: 10px, $height: 10px);
-        content: "";
-        border-color: acas-color("teal-dark");
-        position: absolute;
-        margin: auto;  
-
-        bottom: 1px;
-        top: 4px;
-        right: 1em;
-      }
-
-      &:hover, &:focus {
-        background: acas-color("teal-dark");
-        color: acas-color("white");
-        border: 1px solid acas-color("white");
-        &:after {
-          border-color: acas-color("white");
-        }
       }
       
     }
