@@ -20,7 +20,7 @@
   }
 
   h2 {
-    @extend %margin-bottom-3x;
+    @extend %margin-bottom-1x;
     @extend .text-small;
     border-left: none;
     color: acas-color("gray-dark");
@@ -30,4 +30,5 @@
       display: none;
     }
   }
+  
 }
