@@ -3,8 +3,8 @@
   @extend %padding-bottom-1x;
   @extend %padding-left-2x;
   @extend %margin-bottom-4x;
-  border-left: 15px solid acas-color("gray-light");
-  ul {
+  border-left: 15px solid acas-color("gray");
+  ul, p {
     @extend %margin-bottom-2x;
   }
 }
