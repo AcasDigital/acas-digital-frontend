@@ -59,10 +59,13 @@ select {
     display: inline-block;
     max-width: 12em;
   }
-  a {
-    padding: .275em 1em;
+  .find_address {
+    @extend %padding-horizontal-1x;
+    @extend %padding-vertical-4x;
+    @extend %margin-top-1x;
   }
 }
+
 #address_results {
   @extend %margin-bottom-6x;
   select {
