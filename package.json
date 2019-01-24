@@ -1,7 +1,7 @@
 {
   "name": "@acas-digital-innovation/acas-frontend",
   "version": "1.0.7",
-  "description": "Acas front-end codebase",
+  "description": "Acas 8ront-end codebase",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
