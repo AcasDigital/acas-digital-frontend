@@ -12,7 +12,8 @@
 
   color: acas-color("black");
   display: block;
-  padding: .25em 0 .25em 2em;
+  padding: .25em;
+  padding-right: 2em;
   position: relative;
 
   &:before {

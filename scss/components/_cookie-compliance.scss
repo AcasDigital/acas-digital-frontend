@@ -1,5 +1,6 @@
 .eu-cookie-compliance-banner {
   background-color: acas-color("teal-dark");
+  overflow: auto;
   .eu-cookie-compliance-content {
     @extend .container;
     @extend %margin-vertical-4x;
