@@ -321,12 +321,11 @@ li.menu-primary__item {
         @else {
           &:after {
             display: inline-block;
-            height: .5em;
             margin-left: 1em;
             position: relative;
             right: 0;
             top: 0;
-            width: 1em;
+            width: .875em;
           }
         }
       }

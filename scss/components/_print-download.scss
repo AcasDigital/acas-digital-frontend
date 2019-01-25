@@ -10,10 +10,10 @@
 .btn-save {
   @extend .text-small;
 
-  color: acas-color("black");
+  color: acas-color("teal-dark");
   display: block;
   padding: .25em;
-  padding-right: 2em;
+  padding-left: 2em;
   position: relative;
 
   &:before {
