@@ -15,11 +15,16 @@
   }
 
   .eu-cookie-compliance-message {
-    @extend .row;
+    @extend .text-small;
+
+    width: 100%;
+    
     p {
-      @extend .col-xs-12;
       @extend %margin-bottom-0x;
-      @extend .text-small;
+    }
+
+    p, a {
+      display: inline-block;
     }
   }
 }
