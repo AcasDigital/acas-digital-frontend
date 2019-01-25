@@ -43,3 +43,9 @@
     }
   }
 }
+
+@include bp(lg) {
+  .article__wrapper {
+    min-height: 11em;
+  }
+}
