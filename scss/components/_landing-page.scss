@@ -45,7 +45,7 @@
 }
 
 @include bp(lg) {
-  .article.teaser {
+  article.teaser {
     .article__wrapper {
       min-height: 11em;
     }

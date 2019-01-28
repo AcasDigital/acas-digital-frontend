@@ -8,12 +8,7 @@ header {
 }
 
 article {
-  &.home-page, 
-  &.page, 
-  &.secondary-page, 
-  &.details-page, 
-  &.support-page,
-  &.thank-you-page {
+  &.page {
     &.full{
       @extend .col-xs-12;
       @extend .col-sm-9;
@@ -64,7 +59,6 @@ article {
   @extend .col-sm-7;
   @extend .col-md-6;
 }
-
 
 .content-moderation-entity-moderation-form {
   width: 115%;
