@@ -43,10 +43,9 @@
 
   &:after {
     content: "";
+    @extend %has-background-image;
+    
     background-image: url(../images/icons/icon-telephone.png);
-    background-repeat: no-repeat;
-    background-size: 1.5em auto;
-    background-position: 50% 50%;
     height: 100%;
     position: absolute;
     right: .5em;

@@ -9,23 +9,21 @@
 
 .btn-save {
   @extend .text-small;
-
+  @extend %padding-1x;
   color: acas-color("teal-dark");
   display: block;
-  padding: .25em;
+
   padding-left: 2em;
   position: relative;
 
   &:before {
     content: "";
-    background-repeat: no-repeat;
-    background-size: 50% auto;
-    background-position: 50% 50%;
+    @extend %has-background-image;
     height: 100%;
     position: absolute;
     left: 0;
     top: 0;
-    width: 2em;
+    width: 1em;
   }
 }
 

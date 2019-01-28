@@ -54,11 +54,9 @@
       @extend %margin-vertical-4x;
     }
     .icon {
+      @include push--auto;
       @extend %margin-vertical-4x;
-      @extend %margin-auto;
-      background-position: 50% 50%;
-      background-repeat: no-repeat;
-      background-size: 100% auto;
+      @extend %has-background-image;
       height: 6em;
       width: 4em;
     }

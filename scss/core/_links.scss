@@ -36,3 +36,9 @@ a {
     background: transparent;
   }
 }
+
+%link-focus-black {
+  &:hover, &:focus {
+    color: black;
+  }
+}

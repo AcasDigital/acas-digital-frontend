@@ -51,6 +51,12 @@ ul, ol {
   }
 }
 
+%has-background-image {
+  background-size: 100% auto;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
 main.main__content {
   @extend %margin-vertical-8x;
   display: block;
