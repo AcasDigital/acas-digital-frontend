@@ -16,11 +16,14 @@
 
     max-width: 20em;
     overflow: hidden;
-
+ 
     ul {
       @extend %list-no-format;
     }
     
+    a {
+      @extend %link-no-focus;
+    }
     .text {
       @extend .text-small;
       @extend %padding-left-1x;

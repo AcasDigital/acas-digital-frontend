@@ -25,7 +25,8 @@
   // Prepend left pointing arrow
   &:before {
     @include acas-shape-arrow($direction: left, $base: 10px, $height: 6px);
-
+    @include push--auto;
+    
     content: "";
 
     // Vertically align with the parent element
@@ -35,7 +36,6 @@
     bottom: 1px;
     left: 0;
 
-    margin: auto;
   }
   &:hover, &:focus {
     border-bottom: 1px solid transparent;
