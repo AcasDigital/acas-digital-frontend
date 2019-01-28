@@ -133,6 +133,7 @@
   /* Menu styles */
   .menu-primary {
     display: block;
+    overflow: auto;
     width: 100%;
   }
 
@@ -174,7 +175,7 @@
       height: 0px;
       left: calc(50% - 1em);
       position: absolute;
-      top: -2em;
+      top: -40px;
       width: 0px;
     }
   }
