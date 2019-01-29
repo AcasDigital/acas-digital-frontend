@@ -1,6 +1,6 @@
 {
   "name": "@acas-digital-innovation/acas-frontend",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Acas front-end codebase",
   "main": "index.js",
   "scripts": {
