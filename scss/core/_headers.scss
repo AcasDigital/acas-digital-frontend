@@ -34,23 +34,23 @@ h2 {
 h3 {
   @extend %margin-bottom-4x;
   &, .h3 {
-    font-size: 1em;
+    font-size: $font-size-standard;
   }
 }
 
 h4 {
   @extend %margin-bottom-3x;
   &, .h4 {
-    font-size: 1em;
+    font-size: $font-size-standard;
   }
 }
 
 h5 {
-  font-size: 1em;
+  font-size: $font-size-standard;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: $font-size-standard;
 }
 
 @include bp(md) {

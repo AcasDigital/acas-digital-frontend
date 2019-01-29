@@ -11,7 +11,7 @@
   @extend %link-no-focus;
 
   color: acas-color("gray-dark");
-  font-size: 2em;
+  font-size: $font-size-x-large;
   float: right;
 
   position: relative;
@@ -35,6 +35,7 @@
 .menu-secondary {
   @extend %list-no-format;
   display: none;
+
   left: 0;
   list-style: none;
   position: relative;

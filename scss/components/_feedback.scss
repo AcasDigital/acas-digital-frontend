@@ -16,9 +16,15 @@
     @extend %margin-vertical-1x;
     @extend .text-small;
     float: left;
+
     a {
       color: acas-color("white");
+      &:hover, &:focus {
+        background: acas-color("white");
+        color: acas-color("teal-dark");
+      }
     }
+    
   }
 
   .feedback-question-wrapper {
@@ -83,7 +89,7 @@
   
       display: block;
       font-family: $font-family-semibold;
-      font-size: 1em;
+      font-size: $font-size-standard;
     }
 
     .panel-heading {

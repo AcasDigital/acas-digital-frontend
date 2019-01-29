@@ -5,7 +5,7 @@ input, textarea, select, button {
   
   color: initial;
   display: inline-block;
-  font-size: 1em;
+  font-size: $font-size-standard;
   letter-spacing: normal;
   text-align: start;
   text-indent: 0px;
@@ -84,7 +84,7 @@ select {
   background-clip: padding-box;
   border: 1px solid acas-color("gray-dark");
   border-radius: .25rem;
-  font-size: 1em;
+  font-size: $font-size-standard;
   line-height: 1.5;
   min-height: 40px;
   padding: .25em .5em;
