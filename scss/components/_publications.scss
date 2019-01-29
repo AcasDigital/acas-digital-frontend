@@ -1,3 +1,11 @@
+.paragraph--type--document {
+  .document-wrapper {
+    .details-wrapper {
+      overflow: auto;
+    }
+  }
+}
+
 h3.publication-title {
   @extend %margin-bottom-2x;
 }

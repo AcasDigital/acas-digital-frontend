@@ -25,6 +25,4 @@ $acas-colours: (
   @return map-get($acas-colours, $key);
 }
 
-$button-color: acas-color('lime'); // #8e3329
-
-$link-color: acas-color("teal");
+$link-color: acas-color("teal-dark");
