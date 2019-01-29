@@ -92,10 +92,7 @@ select {
 
 
 .form-description {
-  @extend .text-small;
-  @extend %margin-bottom-4x;
-  
-  color: acas-color("gray-dark");
+  @extend %description;
 }
 
 /* Form Upload */

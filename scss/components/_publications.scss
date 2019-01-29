@@ -1,4 +1,18 @@
+h3.publication-title {
+  @extend %margin-bottom-2x;
+}
+
 .field--name-field-publication-summary {
   @extend %margin-bottom-8x;
   font-size: $font-size-large;
+}
+
+.field--name-field-media-file,
+.field--name-field-pages {
+  @extend %margin-bottom-2x;
+  color: acas-color("black");
+}
+
+.field--name-field-description {
+  @extend %description;
 }
