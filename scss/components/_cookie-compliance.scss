@@ -9,7 +9,7 @@
 
   .eu-cookie-compliance-content {
     @extend .container;
-    @extend %padding-top-1x;
+    @extend %padding-top-2x;
     @extend %padding-bottom-2x;
     max-width: 100%;
   }
@@ -25,6 +25,10 @@
 
     p, a {
       display: inline-block;
+    }
+
+    a {
+      cursor: pointer;
     }
   }
 }
