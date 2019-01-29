@@ -13,7 +13,7 @@
     }
     &:after {
       @extend %has-background-image;
-      @extend %margin-horizontal-3x;
+      @extend %margin-horizontal-2x;
       
       content: "";
       
@@ -21,11 +21,9 @@
 
       display: inline-block;
       height: 15px;
-
       position: relative;
-      
       top: 0.25em;
-      width: 10px;
+      width: 7px;
     }
     &:last-child {
       &:after {
