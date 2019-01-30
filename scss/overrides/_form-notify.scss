@@ -1,6 +1,7 @@
 .path-webform {
   header#block-acas-page-title,
-  .webform-submission-form {
+  .webform-submission-form,
+  .webform-confirmation {
     @include clearfix;
     @extend .col-xs-12;
     @extend .col-md-8;
