@@ -1,5 +1,8 @@
 jQuery( document ).ready( function( $ ) {
 
+  // Reset the no js link
+  $("a[href='/js-disabled']").attr("href", "/notification-form");
+  
   function openNavigation() {
     var primaryMenu = $(".menu-primary");
     if (!primaryMenu.hasClass("menu-primary--active")) {
@@ -13,7 +16,7 @@ jQuery( document ).ready( function( $ ) {
     e.preventDefault();
     $(this).toggleClass('menu-primary__icon--active');
     openNavigation();
-  });
+  }); 
 
   if (document.documentElement.clientWidth <= 768) {
     var primaryListItems = $(".menu-primary__item--has-dropdown");
