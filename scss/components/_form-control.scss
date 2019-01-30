@@ -61,7 +61,7 @@ select {
   }
   .find_address {
     @extend %padding-horizontal-1x;
-    @extend %padding-vertical-4x;
+    @extend %padding-vertical-1x;
     @extend %margin-top-1x;
   }
 }

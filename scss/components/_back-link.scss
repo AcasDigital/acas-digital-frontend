@@ -1,12 +1,12 @@
 .link--back, .back--link {
 
-  @extend %margin-bottom-6x;
+  @extend %margin-bottom-8x;
 
   cursor: pointer;
 
   clear: both;
 
-  font-size: $font-size-standard;
+  font-size: $font-size-small;
   position: relative;
   float: left;
   
@@ -32,7 +32,7 @@
     // Vertically align with the parent element
     position: absolute;
 
-    top: -1px;
+    top: 7px;
     bottom: 1px;
     left: 0;
 
