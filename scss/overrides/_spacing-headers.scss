@@ -1,4 +1,6 @@
-.page-node-type-home-page {
+.page-node-type-home-page,
+.path-frontpage,
+.path-webform {
   h1 {
     @extend %margin-top-6x;
   }
