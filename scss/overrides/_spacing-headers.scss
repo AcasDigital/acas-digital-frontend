@@ -1,3 +1,9 @@
+.page-node-type-home-page {
+  h1 {
+    @extend %margin-top-6x;
+  }
+}
+
 .page-node-type-page,
 .page-node-type-support-page, 
 .page-node-type-details-page,
